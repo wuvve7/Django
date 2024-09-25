@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content1 %}
+<h1>test</h1>
+name = {{name|capfirst}}
+
+<img src="{% static 'image/Riyadh.jpg' %}" alt="">
+
+<h1>age = {{age}}</h1>
+{% endblock content1%}
